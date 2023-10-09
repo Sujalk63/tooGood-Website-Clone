@@ -1,11 +1,15 @@
 /*? TwoGood website CSS */
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap');
 
+@font-face {
+    src: url(./font/Futura-Bold.ttf);
+    font-family: futura;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: futura; */
     font-family: 'Jost', sans-serif;
 }
 
@@ -116,6 +120,7 @@ body {
     text-align: center;
     line-height: 14vw;
     letter-spacing: -10px;
+    font-family: futura;
 }
 
 .video-container {
